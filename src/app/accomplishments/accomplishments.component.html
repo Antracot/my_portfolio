@@ -1,0 +1,14 @@
+<section>
+    <h3 class="section_title">{{jsonData?.accomplishments_title}}</h3>
+    <div class="container accomplishments_wrapper">
+        <div class="row">
+            <div class="year_wrapper" *ngFor="let events of jsonData?.accomplishments">
+                <div class="accomp_item" *ngFor="let event of events">
+                    <div class="event_date">{{getKeys(event, eventDate)}}</div>
+                    <a accomplItem class="hover1 event_name" target="_blank" href="{{getKeys(event, eventLink)}}">{{getKeys(event, eventName)}}</a>
+                    <div class="event_role">{{getKeys(event, eventRole)}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

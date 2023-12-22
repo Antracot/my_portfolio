@@ -1,0 +1,94 @@
+@import "../vars"
+    
+@keyframes blinds
+    100%
+        background-position: 0 0, 0 -3em
+        background-size: 0 0, 1em 6em
+
+@keyframes stripes-move
+    100%
+        background-position: 5em 0px
+
+section
+    text-align: center
+    height: 100%
+    width: 100%
+    margin: auto
+    display: inline-block
+    background-color: #e2dede
+    // margin-bottom: 50px
+    .section_title
+        margin-top: 50px
+        margin-bottom: 50px
+        display: inline-block
+        width: 100%
+    .accomplishments_wrapper
+        width: 100%
+        height: auto
+        display: inline-block
+        // background-color: lime
+        margin-bottom: 75px
+        .year_wrapper 
+            display: block
+            width: 75%
+            height: auto
+            margin: 4px auto 
+            // background-color: yellow 
+            .accomp_item
+                display: block
+                width: 100%
+                height: 35px
+                line-height: 35px
+                margin: 3px auto
+                // background-color: green
+                div, a
+                    display: inline-block
+                    vertical-align: middle
+                    height: 100%
+                    font-family: $title_font
+                    font-size: 1.0rem
+                    letter-spacing: 0.5px
+                .event_date
+                    background-color: $highlight_color
+                    color: white
+                    width: 20%
+                .event_name
+                    cursor: pointer
+                    text-align: left
+                    padding-left: 20px
+                    font-weight: 400
+                    width: 65%
+                    background-color: $basepage_color_lightgrey
+                    color: white
+                    outline: none
+                    text-decoration: none
+                    &:hover
+                        transition: all $transition_delay
+                        font-weight: 600
+                .event_role
+                    font-weight: 400
+                    background-color: $basepage_color_dark
+                    width: 15%
+                    color: white
+                    font-size: 0.9rem
+                .hover1
+                    // $color: #7cf07f
+                    $color: $highlight_color
+                    $color2: #a6bdc2
+                    // color: $color
+                    &:hover
+                        animation: blinds 0.4s linear forwards
+                        background: linear-gradient(0deg, $color 25%, transparent 25%) 0 0 / 0.5em 0.5em, linear-gradient(0deg, #b0c1c5 50%, transparent 50%) 0 0 / 1em 1em
+                        color: adjust-hue($basepage_color,180)
+                        // background: #fff
+
+                        
+                .hover2
+                    $color: $basepage_color
+                    $color2: #90a6ab
+                    &:hover
+                        animation: stripes-move 0.75s infinite linear
+                        background: repeating-linear-gradient(45deg, $color 0, $color 0.25em, transparent 0.25em, transparent .5em)
+                        color: adjust-hue($color,180)             
+
+

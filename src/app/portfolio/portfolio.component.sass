@@ -1,0 +1,106 @@
+@import "../vars"
+
+.hidden
+    display: none!important    
+    
+section
+    text-align: center
+    height: 100%
+    width: 100%
+    margin: auto
+    display: inline-block
+    .section_title
+        margin-top: 50px
+        margin-bottom: 50px
+        display: inline-block
+        width: 100%
+    .filter_wrapper
+        width: 100%
+        height: 50px
+        // background-color: yellow
+        margin-bottom: 70px
+        .filter_btn
+            display: inline-block
+            width: 120px
+            height: 40px
+            font-size: 1.0rem    
+            border: 3px solid $highlight_color
+            margin: 5px 13px 0 13px
+            font-family: $text_font
+            background-color: transparent
+            color: $highlight_color
+            font-weight: 400
+            &:hover
+                transition: all $transition_delay
+                color: white
+                background-color: $highlight_color
+        .all
+            width: 60px
+        .active
+            transition: all $transition_delay
+            color: white
+            background-color: $highlight_color
+    .works-wrapper
+        position: relative
+        width: 100%
+        height: 100%
+        display: inline-block
+        margin-bottom: 100px 
+        overflow: hidden
+        // background-color: yellow
+        .work_item
+            // border: 1px solid blue
+            width: 33.3%
+            display: inline-block
+            height: 250px
+            line-height: 250px
+            // margin: auto
+            // background-color: red
+            overflow: hidden
+            position: relative
+            cursor: pointer
+            z-index: 2
+            .whiter
+                backdrop-filter: blur(4px) saturate(50%) contrast(35%) brightness(90%)
+                // background-color: rgba(255, 255, 255, 0.2)
+                width: 100%
+                height: 100%
+                display: inline-block
+                position: absolute
+                left: 0
+                right: 0
+                top: 0
+                bottom: 0
+                z-index: 10
+                transition: all $transition_delay
+            .title_wrap
+                vertical-align: middle
+                // background-color: lime
+                // color: $highlight_color
+                width: 50%
+                display: inline-block
+                z-index: 15
+                // height: 100%
+                h4
+                    // text-shadow: 0.1px 0.1px 0px white
+                    // line-height: 250px
+                    font-size: 1.1rem
+                    overflow: hidden
+                    height: auto
+                    color: white      
+                .under_line
+                    background-color: $highlight_color
+                    margin-left: 15%
+                    // line-height: 250px
+                    height: 2px
+                    width: 70%
+                    display: block
+            .item_img
+                transition: all $transition_delay + 0.2
+                transform: translate(-50%, 0%)
+                height: 100%
+                position: absolute
+                display: inline-block
+
+                
+                   

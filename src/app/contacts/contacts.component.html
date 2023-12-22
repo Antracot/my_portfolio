@@ -1,0 +1,80 @@
+<section id="contacts"> 
+    <h3 class="section_title">{{jsonData?.contact_title}}</h3>
+    <div class="container contacts_wrapper">
+        <div class="row">
+            <div class="col col-lg-9 .col-md-9 .col-sm-12 left_item">
+                <h4>Get in touch</h4>
+                <form action="" onsubmit="return false">
+                    <div class="input_wrapper">
+                        <input 
+                            inputForm
+                            name="name" 
+                            name-type="text" 
+                            validation="invalid" 
+                            placeholder="Full name" 
+                            type="text"
+                            data-required-msg="longer than 2 letters"
+                        >
+                        <div class="tooltip_wrapper"></div>
+                    </div>
+                    <div class="input_wrapper">
+                        <input 
+                            inputForm 
+                            name="email"
+                            name-type="email" 
+                            validation="invalid" 
+                            placeholder="Email" 
+                            type="text"
+                            data-required-msg="contains @ character"
+                        >
+                        <div class="tooltip_wrapper"></div>
+
+                    </div>
+                    <div class="input_wrapper">
+                        <input 
+                            inputForm
+                            name="subject" 
+                            name-type="text" 
+                            validation="invalid" 
+                            placeholder="Subject" 
+                            type="text"
+                            data-required-msg="longer than 2 letters"
+                        >
+                        <div class="tooltip_wrapper"></div>
+                    </div>
+                    <div class="input_wrapper">
+                        <textarea 
+                            inputForm
+                            name="message" 
+                            name-type="textarea" 
+                            validation="invalid" 
+                            placeholder="message . . . "
+                            data-required-msg="longer than 10 letters"
+                        ></textarea>
+                        <div class="tooltip_wrapper"></div>
+                    </div>
+                    <div class="submit_wrap">
+                        <input type="submit" class="submit">
+                    </div>
+                </form>
+            </div>
+            <div class="col col-lg-3 .col-md-3 .col-sm-12 right_item">
+                <h4>Contact Info</h4>
+                <div class="info_wrap">
+                    <span *ngFor="let data of jsonData?.info">{{data}}</span>
+                </div>
+                <app-socials></app-socials>
+            </div>     
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer_wrap">
+        <div class="copyright">{{jsonData?.copyright}}
+            <span>{{jsonData?.author}}</span>
+        </div>
+        <div class="menu_wrap">
+            <app-menu></app-menu>
+        </div>          
+    </div>        
+</footer>

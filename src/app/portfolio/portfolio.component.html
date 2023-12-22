@@ -1,0 +1,24 @@
+<section id="portfolio">
+    <h3 class="section_title">{{jsonData?.portfolio_title}}</h3>
+    <div class="filter_wrapper">
+        <input filterBtn class="filter_btn all active" type="button" data-group="all" value="all" />
+        <input filterBtn class="filter_btn" type="button" data-group="design" value="design">
+        <input filterBtn class="filter_btn" type="button" data-group="front" value="front end">
+        <input filterBtn class="filter_btn" type="button" data-group="wordpress" value="wordpress">
+        <input filterBtn class="filter_btn" type="button" data-group="tests" value="tests">
+        <input filterBtn class="filter_btn" type="button" data-group="video" value="video">
+    </div>  
+    <div class="container works-wrapper">
+        <div class="row">
+            <div workItem class="work_item" attr.data-group="{{getKeys(work, group)}}" *ngFor="let work of jsonData?.works">
+                <div class="whiter">
+                    <div class="title_wrap">
+                        <h4 class="h4">{{getKeys(work, itemName)}}</h4>
+                        <span class="under_line"></span>
+                    </div>
+                </div>
+                <img class="item_img" src="assets/img/portfolio/{{getKeys(work, work_path)}}" >
+            </div>
+        </div>
+    </div>   
+</section>

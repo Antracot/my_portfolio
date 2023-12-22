@@ -1,0 +1,23 @@
+<section id="header">
+    <nav>
+        <ul>
+            <li class="logo">
+                <a href="/">
+                    <img src="assets/img/logo.png">
+                </a>
+            </li>
+            <app-menu></app-menu>  
+        </ul>
+        <div class="line-bottom"></div>
+    </nav>
+    <ngb-carousel #ngcarousel *ngIf="jsonData?.slides">
+        <ng-template *ngFor="let slidePath of jsonData?.slides" ngbSlide>
+            <div slideItem class="slide-img-wrapper" >
+                <img attr.src="{{getKeys(slidePath, path)}}" alt="Random first slide">
+            </div>
+            <div class="carousel-caption">
+                <h3>{{getKeys(slidePath, title)}}</h3>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+</section>

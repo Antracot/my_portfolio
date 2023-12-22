@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap'
+@import './app/vars'
+
+@font-face
+    font-family: "quicksand"
+    src: local("quicksand"), url(./assets/fonts/quicksand/Quicksand-VariableFont_wght.ttf) format("truetype")
+
+@font-face
+    font-family: "cabin"
+    src: local("cabin"), url(./assets/fonts/cabin/Cabin-VariableFont_wdth_wght.ttf) format("truetype")
+
+@font-face
+    font-family: "ubuntue"
+    src: local("ubuntue"), url(./assets/fonts/ubuntu/Ubuntu-Regular.ttf) format("truetype")
+
+    
+.section_title
+    // margin-top: 50px
+    // margin-bottom: 50px
+    text-align: center
+    color: $highlight_color
+    font-size: 2.0vw
+    font-family: $title_font
+    font-weight: bold
+    letter-spacing: 5px
+
+.hidden
+    display: none
+
+.goTop
+    width: 40px
+    height: 40px
+    position: fixed
+    background-color: $highlight_color
+    right: 30px
+    bottom: 30px
+    z-index: 200
+    cursor: pointer
+    // display: none
+    border-radius: 5px
+    span
+        cursor: pointer
+        width: 0
+        height: 0
+        border-right: 30px solid transparent
+        border-left: 30px solid transparent
+        border-bottom: 30px solid #fff
+        -webkit-transform: scale(.3)
+        -ms-transform: scale(.3)
+        transform: scale(.3)
+        position: absolute
+        margin: 5px auto 5px -10px
+        -webkit-transition: all .25s
+        transition: all .25s      

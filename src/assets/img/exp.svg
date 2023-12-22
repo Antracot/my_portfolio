@@ -1,0 +1,37 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1226 300" style="enable-background:new 0 0 1226 329;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7C7C7C;}
+	.st1{opacity:0.25;fill:#E88073;stroke:#E88073;stroke-width:2;stroke-miterlimit:10;}
+	.st2{opacity:0.25;fill:none;stroke:#E88073;stroke-width:2;stroke-miterlimit:10;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#E18985;}
+	.st4{fill:#FFFFFF;}
+	.st5{font-family:'Ubuntu-Bold';}
+	.st6{font-size:14px;}
+	.st7{opacity:0.25;fill:#E18985;stroke:#E18985;stroke-width:2;stroke-miterlimit:10;}
+	.st8{opacity:0.25;fill:none;stroke:#E18985;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<circle expItem class="st0" data-year="2009" cx="66.5" cy="166.5" r="19.5"/>
+<circle expItem class="st0" data-year="2015-1" cx="270.5" cy="102.5" r="19.5"/>
+<circle expItem class="st0" data-year="2015-2" cx="370" cy="239" r="19.5"/>
+<circle expItem class="st0" data-year="2017" cx="571.5" cy="102.5" r="19.5"/>
+<circle expItem class="st0" data-year="2018" cx="771.5" cy="142.5" r="19.5"/>
+<circle expItem class="st0" data-year="2019" cx="969.5" cy="168.5" r="19.5"/>
+<circle expItem class="st0" data-year="present" cx="1169.5" cy="218.5" r="19.5"/>
+
+<line class="st1" data-year="2009" x1="85" y1="161" x2="251" y2="107"/>
+<line class="st2" data-year="2015-1" x1="290" y1="102" x2="552" y2="102"/>
+<line class="st2" data-year="2015-1" x1="358.5" y1="219.5" x2="280.5" y2="118.5"/>
+<line class="st2" data-year="2015-2" x1="1149.5" y1="218.5" x2="389.5" y2="238.5"/>
+<line class="st2" data-year="2017" x1="591" y1="102" x2="752" y2="136"/>
+<line class="st7" data-year="2018" x1="791" y1="142" x2="950" y2="162"/>
+<line class="st8" data-year="2019" x1="989" y1="168" x2="1152" y2="209"/>
+
+<text transform="matrix(1 0 0 1 52 206)" class="st4 st5 st6" data-year="2009">2009</text>
+<text transform="matrix(1 0 0 1 256 142)" class="st4 st5 st6" data-year="2015-1">2015</text>
+<text transform="matrix(1 0 0 1 355 278)" class="st4 st5 st6" data-year="2015-2">2015</text>
+<text transform="matrix(1 0 0 1 556 142)" class="st4 st5 st6" data-year="2017">2017</text>
+<text transform="matrix(1 0 0 1 757 182)" class="st4 st5 st6" data-year="2018">2018</text>
+<text transform="matrix(1 0 0 1 955 208)" class="st4 st5 st6" data-year="2019">2019</text>
+<text transform="matrix(1 0 0 1 1156 258)" class="st4 st5 st6">2021</text>
+</svg>

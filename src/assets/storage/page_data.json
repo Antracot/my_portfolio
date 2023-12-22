@@ -1,0 +1,370 @@
+{
+    "header_sec": {
+        "slides": 
+            [
+                {
+                    "path": "/assets/img/slides/slide01.jpg",
+                    "title": "web development"
+                },
+                {
+                    "path": "/assets/img/slides/slide02.jpg",
+                    "title": "front-end design"
+                },
+                {
+                    "path": "/assets/img/slides/slide03.jpg",
+                    "title": "automation testing"
+                }
+            ],
+        "menu": [
+            {"name": "experience"},
+            {"name": "portfolio"},
+            {"name": "contacts"}
+        ]    
+    },
+    "welcome_sec": {
+        "welcome_title": "Welcome !",
+        "url_linkedin": "https://linkedin.com/in/artem-korchevyi-a531a243",
+        "url_skype": "skype:live:antracot?chat'",
+        "url_mail": "artem.korchevyi@gmail.com"
+    },
+    "skills_sec": {
+        "skills_title": "Skills",
+        "skills":[
+            {
+                "icon": "1_design.svg", 
+                "title": "web design", 
+                "text": "Whether you are accessing your website from a laptop, smartphone or tablet, I leverage powerful, flexible technologies that are going to reach out to your target audience.",
+                "techs": "HTML, CSS, Bootstrap, Illustrator, Photoshop"
+            },
+            {
+                "icon": "2_front_end.svg", 
+                "title": "front end",
+                "text": "Providing revenue-driven and intuitive website development services to make sure that your customers keep coming back over and over again.",    
+                "techs": "JavaScript, TypeScript, Angular, GSAP, SASS"
+            },
+            {
+                "icon": "3_wordpress.svg", 
+                "title": "cms customization",
+                "text": "Providing comprehensive CMS website development to fulfill your business needs, moving your website to any CMS so that you can manage it with absolute ease.",
+                "techs": "WordPress, OpenCms, Magento"
+            },
+            {
+                "icon": "4_automation.svg", 
+                "title": "automation testing",
+                "text": "Developing e2e/API tests, working with the most popular frameworks, configuring Jenkins pipes, CI, working with Allure reports, executing, fixing and supporting test cases.",
+                "techs": "Selenium, ProtractorJS, REST Assured, Allure"
+            },
+            {
+                "icon": "5_web_tel.svg", 
+                "title": "web scripting telegram",
+                "text": "Creating scripts for web applications, automating web scenarios developing bots for Telegram, fixing server errors, supporting domain or hosting side",
+                "techs": "WebDriver, Selenium, Telegram API, Python"
+            }
+        ]
+    },
+    "exp_sec": {
+        "exp_title": "Experience",
+        "companies": [
+                {
+                    "img-path": "stat.png", 
+                    "year": "2009",
+                    "years": "2009 - 2015",
+                    "company-name": "State Statistic Department",
+                    "info": "Working in the informatization department in the State Statistic Department in Ivano-Frankivsk region. Working with statistic software, databases, SQL queries, web applications. Making scripts in FoxPro databases environment and analyzing output data. Participating in web conferences, meetings and discussions with all Ukrainian statistic departments.",
+                    "techs": "SQL, DBMC, web development"    
+                },
+                {
+                    "img-path": "softserve.png",
+                    "year": "2015-1",
+                    "years": "May 2015 - Sep 2015",
+                    "company-name": "SoftServe",
+                    "info": "Learning Object-oriented programming, theory software testing, basics in Java. Working in Java development environment IntelliJ IDEA, writing tests and verifying functions of web applications, working with the team in Scrum framework. All works were organized in bug-tracker - Jira. Working with tests documentation, such as Test Plan, Test Design, Test Case, Bug Report, User Story etc., making a few Demo presentations for SoftServe employees. Building own test framework for testing webpage, using Selenium WebDriver, TestNG and JUnit, Cucumber.",
+                    "techs": "Java, automation testing, Agile"
+                },
+                {
+                    "img-path": "freelancer.png", 
+                    "year": "2015-2",
+                    "years": "2015 - present",
+                    "company-name": "Freelancing",
+                    "info": "Working in a small freelancing team focused on front-end development with the help of JavaScript. Using modern web frameworks: Bootstrap, Angular, GreenSock, JQuery, Google Maps and Youtube API. Making responsive design for mobile or (and) tablets. Building projects with the help of Gulp, Bower and preprocessor SaSS. Making UI tests, functional tests and writing automation tests for regression testing. Learning PHP, integrating project in CMS like Wordpress for administration resource. I’m improving my programming and testing skills all the time, use official documentation, technical articles and audio podcasts.",
+                    "techs": "JavaScript, PHP, Wordpress, CSS/HTML, Web Design"
+                },
+                {
+                    "img-path": "visahq.png", 
+                    "year": "2017",
+                    "years": "2017 - 2018",
+                    "company-name": "VisaHQ",
+                    "info": "Checking service functional, UI, mobile version, correct work and behavior on web pages, writing test-cases, automation tests on Protractor.js and building my own testing framework. Working with Jira bug tracker system and Agile methodology of development software. Working in a professional and cool team. Helping employees from foreign offices (USA, Emirates, Canada, India etc).",
+                    "techs": "E2E tests development on TypeScript/Selenium"
+                },
+                {
+                    "img-path": "sombra.png", 
+                    "year": "2018",
+                    "years": "2018 - 2019",
+                    "company-name": "Sombra",
+                    "info": "Working in a large financial investment project. Developing automation front end e2e tests: TypeScript, Protractor.js, Jasmine, Jenkins; back end tests: Java, Rest-Assured, TestNG, Zephyr/Jira. Communicating with the team in Canada and constantly improving my English with native speakers. Recording video sessions of code for company confluence; mentoring and explaining project structure and test convention for new team members.",
+                    "techs": "TypeScript, Java, Rest-Assured, CSV/PDF parsering"
+                },
+                {
+                    "img-path": "avenga.png", 
+                    "year": "2019",
+                    "years": "2019 - present",
+                    "company-name": "Avenga",
+                    "info": "Working on a big pharmacology project. Developing e2e and API tests on Java, with the help of Selenide, Rest-Assured, Allure2, TestNG frameworks. Working in a best and big automation team, improving programming skills all the time. Preparing for Java certification.",
+                    "techs": "Java, Selenide, Rest-Assured, Allure2, TestNG"
+                },
+                {
+                    "img-path": "", 
+                    "year": "present",
+                    "years": "2021",
+                    "company-name": "Now",
+                    "info": "<strong>Learn Python and script Bots, prepare to pass Java Oracle certification, improve English, engage in charity, produce music, strive for perfection in everything and love my son Ustym.</strong>",
+                    "techs": ""
+                }  
+
+            ]
+    },
+    "portfolio_sec": {
+        "portfolio_title": "Portfolio",
+        "works": [
+            {
+                "id": 1,
+                "name": "Travel Company",
+                "work": "aven_tour", 
+                "img_path": "001_aven_tour.jpg",
+                "group": "design"
+            },
+            {
+                "id": 2,
+                "name": "Audit Company",
+                "work": "znat", 
+                "img_path": "002_znat.jpg",
+                "group": "front"
+            },
+            {
+                "id": 3,
+                "name": "TEDx Conference",
+                "work": "tedx", 
+                "img_path": "003_tedx.jpg", 
+                "group": "video"
+            },
+            {
+                "id": 4,
+                "name": "Info Page",
+                "work": "r_safer", 
+                "img_path": "004_r_safer.jpg", 
+                "group": "front"
+            },
+            {
+                "id": 5,
+                "name": "Designing",
+                "work": "gk_service", 
+                "img_path": "005_gk_service.jpg", 
+                "group": "wordpress"
+            },
+            {
+                "id": 6,
+                "name": "Online Store",
+                "work": "golfstrea", 
+                "img_path": "006_golfstream.jpg", 
+                "group": "wordpress"
+            },
+            {
+                "id": 7,
+                "name": "Demo Project for Conference",
+                "work": "meetup", 
+                "img_path": "007_meetup.jpg", 
+                "group": "front"
+            },
+            {
+                "id": 8,
+                "name": "Info Page",
+                "work": "panasonic", 
+                "img_path": "008_panasonic.jpg", 
+                "group": "design"
+            },
+            {
+                "id": 9,
+                "name": "Trade Company",
+                "work": "esko", 
+                "img_path": "009_esko.jpg", 
+                "group": "design"
+            },
+            {
+                "id": 10,
+                "name": "Medical Company", 
+                "work": "pmc",
+                "img_path": "010_pmc.jpg", 
+                "group": "wordpress"
+            },
+            {
+                "id": 11,
+                "name": "Charity Organization",
+                "work": "medgal", 
+                "img_path": "011_medgal.jpg", 
+                "group": "front"
+            },
+            {
+                "id": 12,
+                "name": "Equipment Filter",
+                "work": "pmc_equipment", 
+                "img_path": "012_pmc_equipment.jpg", 
+                "group": "front"
+            },
+            {
+                "id": 13,
+                "name": "Trade Company",
+                "work": "prom_kotel", 
+                "img_path": "013_prom_kotel.jpg",
+                "group": "design"
+                },
+            {
+                "id": 14,
+                "name": "Registration Form",
+                "work": "boiler_hub", 
+                "img_path": "014_boiler_hub.jpg", 
+                "group": "design"
+            },
+            {
+                "id": 15,
+                "name": "Interactive Vector Map",
+                "work": "green_mys", 
+                "img_path": "015_green_mys.jpg", 
+                "group": "front"
+            },
+            {
+                "id": 16,
+                "name": "Landscaping Design",
+                "work": "art_dim", 
+                "img_path": "016_art_dim.jpg", 
+                "group": "wordpress"
+            },
+            {
+                "id": 17,
+                "name": "Musical Band",
+                "work": "liability ", 
+                "img_path": "017_liability.jpg", 
+                "group": "video"
+            },
+            {
+                "id": 18,
+                "name": "Mobile App",
+                "work": "to_do_app", 
+                "img_path": "018_to_do_app.jpg", 
+                "group": "design"
+            },
+            {
+                "id": 19,
+                "name": "Facebook Boomer",
+                "work": "fb_sender", 
+                "img_path": "019_fb_sender.jpg", 
+                "group": "tests"
+            },
+            {
+                "id": 20,
+                "name": "Demo Project for Conference",
+                "work": "rest_assured", 
+                "img_path": "020_rest_assured.jpg", 
+                "group": "tests"
+            },
+            {
+                "id": 21,
+                "name": "Own Protractor.js Framework",
+                "work": "tests_framework", 
+                "img_path": "021_tests_framework.jpg", 
+                "group": "tests"
+            }
+        ]
+    },
+    "accomplishments_sec": {
+        "accomplishments_title": "Accomplishments",
+        "accomplishments": 
+            [
+                [
+                    {
+                        "event_date": "Dec 2017",
+                        "event_name": "\"Knowledge of Web UI for automation testing\"",
+                        "event_role": "speaker",
+                        "event_link": "https://fb.me/e/2d0i2B48Y" 
+                    }
+                ], 
+                [
+                    {
+                        "event_date": "Feb 2018",
+                        "event_name": "Spring QC meetup",
+                        "event_role": "co-organizer",
+                        "event_link": "https://www.facebook.com/events/2004463716509761/"
+                    }, 
+                    {
+                        "event_date": "Jul 2018",
+                        "event_name": "Summer QC Meetup",
+                        "event_role": "co-organizer",
+                        "event_link": "https://www.facebook.com/events/636048253412516/"
+                    }, 
+                    {
+                        "event_date": "Oct 2018",
+                        "event_name": "\"Test in Rest. API testing with the help of Rest Assured.\"",
+                        "event_role": "speaker",
+                        "event_link": "https://www.facebook.com/events/265234064130981/"
+                    }
+                ],
+                [
+                    {
+                        "event_date": "Feb 2019",
+                        "event_name": "Winter QC Meetup 2019",
+                        "event_role": "co-organizer",
+                        "event_link": "https://www.facebook.com/events/1002889253239545/"
+                    }, 
+                    {
+                        "event_date": "May 2019",
+                        "event_name": "Spring QC Meetup 2019",
+                        "event_role": "co-organizer",
+                        "event_link": "https://fb.me/e/17I3GtcPF"
+                    }, 
+                    {
+                        "event_date": "May 2019",
+                        "event_name": "\"Performance INSIDER: interview with AQA engineer\"",
+                        "event_role": "interview",
+                        "event_link": ""
+                    },
+                    {
+                        "event_date": "Aug 2019",
+                        "event_name": "Summer QC Meetup",
+                        "event_role": "co-organizer",
+                        "event_link": "https://www.facebook.com/events/635981353591297/"
+                    },
+                    {
+                        "event_date": "Nov 2019",
+                        "event_name": "Autumn QC Meetup ",
+                        "event_role": "co-organizer",
+                        "event_link": "https://www.facebook.com/events/2394181804164804/"
+                    },
+                    {
+                        "event_date": "Dec 2019",
+                        "event_name": "Avenga: Hour fo code for students",
+                        "event_role": "speaker",
+                        "event_link": "https://www.facebook.com/permalink.php?story_fbid=2688122424560397&id=210140259025305"
+                    }
+                ],
+                [
+                    {
+                        "event_date": "Feb 2020",
+                        "event_name": "Winter QC Meetup 2020",
+                        "event_role": "co-organizer",
+                        "event_link": "https://www.facebook.com/events/524308754884382/"
+                    }
+                ]
+            ] 
+    },
+    "contacts_sec": {
+        "contact_title": "Contact Me", 
+        "info": [
+            "76010", 
+            "Ukraine",
+            "Ivano-Frankivsk",
+            "artem.korchevy@gmail.com"
+        ],
+        "copyright": "All copyrights reserved - designed & developed by",
+        "author": "Artem Korchevyi"
+    }
+}

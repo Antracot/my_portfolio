@@ -1,0 +1,14 @@
+<div class="container greeting-wrapper">
+    <div class="row">
+        <div class="col col-lg-6 .col-md-6 .col-sm-12 item_left">
+            <!-- <img src="../../assets/img/my_pic.png" alt=""> -->
+        </div>
+        <div class="col col-lg-6 .col-md-6 .col-sm-12 item_right">
+            <div class="text_wrapper">
+                <h2 class="section_title greeting_title">{{jsonData?.welcome_title}}</h2>
+                <p clas="greeting_text" [innerHTML]="textGreeting"></p>
+                <app-socials></app-socials> 
+            </div>   
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<p>
+I'm a web developer and designer from <span>Ukraine</span>. I live in the beautiful city Ivano-Frankivsk near the <span>Carpathians</span>. 
+My work experience is 5+ years and I like it so much for the gained experience and interesting opportunities.
+</p>
+<p>
+Another strong side of mine is automation testing. I'm creating <span>e2e UI tests</span> and searching bugs.
+On this page you can closely learn about my experience and <span>skills</span> in front end <span>technologies</span>, 
+design and testing, review my <span>last works</span> and find more info about me.
+</p> 
+<p>
+For all questions, please, contact me by clicking on any icon of the network below.
+</p> 
+Let’s Keep in touch!

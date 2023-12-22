@@ -1,0 +1,23 @@
+<section>
+    <h3 class="section_title">{{jsonData?.skills_title}}</h3>
+    <div class="container skills-wrapper">
+        <div class="row">
+            <div class="item" *ngFor="let item of jsonData?.skills">
+                <div class="icon_wrapper">
+                    <img class="skill_icon" src="assets/img/skills/{{getKeys(item, icon)}}" alt="">
+                </div>
+                <div class="title">           
+                    <h3>{{getKeys(item, title)}}</h3>
+                </div>
+                <div class="line"></div>
+                <div class="text_wrapper">
+                    <p class="text">{{getKeys(item, text)}}</p>
+                </div>       
+                <div class="item_footer">
+                    <p class="tech_title">technologies:</p>
+                    <p class="techs">{{getKeys(item, techs)}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

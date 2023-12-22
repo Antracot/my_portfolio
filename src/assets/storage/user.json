@@ -1,0 +1,10 @@
+{
+    "name": "Bob",
+    "age": 28,
+    "header": {
+        "slides": [
+            "/assets/img/slides/slide01.jpg",
+            "/assets/img/slides/slide02.jpg",
+            "/assets/img/slides/slide03.jpg"
+    ]}
+}

@@ -1,0 +1,89 @@
+@import "../vars"
+
+section
+    background-color: #ded9d9
+    text-align: center
+    height: 700px
+    .section_title
+        margin-top: 50px
+        margin-bottom: 10px
+        display: inline-block
+        width: 100%
+    app-exp-map
+        width: 100%
+    .exp-wrapper
+        // background-color: green
+        position: relative
+        width: 1226px
+        height: 329px
+        display: inline-block
+        .company      
+            img
+                position: absolute
+                filter: grayscale(1)
+                width: 90px
+                display: block
+            .last-child
+                display: none
+            .last
+                margin-top: 200px
+            #img-2009
+                top: 100px
+                left: 23px                
+            #img-2015-1
+                top: 40px
+                left: 225px
+            #img-2015-2
+                top: 185px
+                left: 320px
+            #img-2017
+                top: 43px
+                left: 530px
+            #img-2018
+                top: 80px
+                left: 725px
+            #img-2019
+                top: 110px
+                left: 922px
+            .active
+                transition: all $transition_delay
+                filter: grayscale(0)
+                        
+        .point
+            background-color: red
+            width: 25px
+            display: inline-block
+            height: 25px
+            position: absolute
+            top: 0
+            left: 0
+    .exp-info-wrapper
+        margin: 10px auto
+        width: 700px
+        border-radius: 4px
+        height: 120px
+        // background-color: rgba(white, 0.2)
+        display: none
+        ::ng-deep h4
+            font-size: 1.2rem
+            font-family: $text_font
+            color: $basepage_color
+            margin-top: 0px
+        ::ng-deep p
+            font-family: $text_font
+            font-size: 0.9rem
+            margin-left: 50px
+            margin-right: 50px
+            letter-spacing: 0.2px
+            line-height: 20px
+            color: $basepage_color
+        ::ng-deep .sub_text
+            color: darkgrey
+            font-size: 0.8rem
+            margin-top: 10px
+            margin-bottom: 10px
+        ::ng-deep .highlight
+            color: $highlight_color
+            font-size: 0.7rem
+            margin-top: -5px
+            font-weight: 600             

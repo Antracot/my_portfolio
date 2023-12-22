@@ -1,0 +1,92 @@
+@import "../vars"
+
+section
+    background-color: #e2dede
+    text-align: center
+    height: 700px
+    .section_title
+        margin-top: 50px
+        display: inline-block
+        width: 100%
+    .skills-wrapper
+        margin-top: 50px
+        // background-color: red
+        // height: 100%
+        display: inline-block
+        .row
+            .item
+                background: url("/assets/img/skills_item_bg.png") no-repeat
+                background-size: 100%
+                height: 500px
+                // border: 1px dotted
+                display: inline-block
+                width: 180px
+                margin-right: auto
+                margin-left: auto 
+                // margin-right: 30px
+                // background-color: lime
+                transition: $transition_delay
+                cursor: pointer
+                border-radius: 5px
+                &:hover
+                    transition: $transition_delay
+                    background-color: rgba(black, 0.05)
+                    margin-top: -10px
+                .icon_wrapper
+                    width: 100%
+                    margin-top: 15px 
+                    height: 80px
+                    // background-color: blue
+                    position: relative
+                    .skill_icon
+                        position: absolute
+                        top:0 
+                        bottom: 0
+                        left: 0
+                        right: 0
+                        width: 55px
+                        margin: auto
+                .title
+                    // background-color: grey
+                    width: 100%
+                    height: 50px
+                    position: relative
+                    line-height: 50px
+                    h3
+                        font-family: $title_font
+                        font-weight: 600
+                        width: 90%
+                        font-size: 1.3em
+                        margin: auto
+                        vertical-align: middle
+                        display: inline-block
+                        color: $basepage_color
+                .line
+                    background-color: $highlight_color
+                    height: 2px
+                    width: 45%
+                    margin: 10px auto
+                .text_wrapper
+                    width: 90% 
+                    font-family: $text_font
+                    margin-top: 15px
+                    font-size: 0.9em
+                    // background-color: red
+                    display: inline-block
+                    height: 220px
+                    color: $basepage_color           
+                .item_footer
+                    position: relative
+                    bottom: 0 
+                    // background-color: green
+                    font-family: $text_font
+                    font-weight: 600
+                    font-size: 0.9em
+                    .tech_title
+                        margin: 0
+                        color: $highlight_color
+                    .techs
+                        color: $basepage_color    
+                            
+
+         

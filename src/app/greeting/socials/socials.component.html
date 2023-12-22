@@ -1,0 +1,11 @@
+<div class="socials">
+    <a class="icon" [href]="jsonData?.url_linkedin" target="_blank">
+        <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>
+    </a>
+    <a class="icon" [href]="sanitize(jsonData?.url_skype)">
+        <i class="fa fa-skype fa-lg" aria-hidden="true"></i>
+    </a>
+    <a class="icon" href="mailto:{{jsonData?.url_mail}}">
+        <i class="fa fa-envelope " aria-hidden="true"></i>
+    </a>
+</div>

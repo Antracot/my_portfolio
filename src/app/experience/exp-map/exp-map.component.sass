@@ -1,0 +1,23 @@
+@import "../../vars"
+    
+circle
+    cursor: pointer
+    transition: all $transition_delay
+
+
+text
+    font-family: $text_font
+    font-size: 0.8em
+    font-weight: 600
+    cursor: default
+    fill: $basepage_color
+    // &:last-child
+    //     font-weight: 400
+    //     fill: white
+line
+    transition: all $transition_delay        
+
+.active
+    fill: $highlight_color
+    opacity: 1
+

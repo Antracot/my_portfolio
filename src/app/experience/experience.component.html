@@ -1,0 +1,22 @@
+<section id="experience">
+    <h3 class="section_title">{{jsonData?.exp_title}}</h3>
+    <div class="exp-wrapper">
+        <div>
+            <div class="company" *ngFor="let company of jsonData?.companies let last = last">
+                <img 
+                    class="expCompanyItem" 
+                    src="assets/img/companies/{{getKeys(company, imgPath)}}" 
+                    attr.data-year="{{getKeys(company, companyYear)}}" 
+                    alt="{{getKeys(company, companyName)}}" 
+                    id="img-{{getKeys(company, companyYear)}}"
+                    attr.data-comp-name="{{getKeys(company, companyName)}}"
+                    attr.data-years="{{getKeys(company, companyYears)}}"
+                    attr.data-info="{{getKeys(company, companyInfo)}}"
+                    attr.data-techs="{{getKeys(company, companyTechs)}}"
+                    [ngClass]="{'last-child': last}"
+                    >
+            </div>
+            <app-exp-map></app-exp-map> 
+            <div class="exp-info-wrapper"></div>  
+        </div>   
+    </div>    

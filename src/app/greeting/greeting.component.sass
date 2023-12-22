@@ -1,0 +1,43 @@
+@import "../vars"
+
+.greeting-wrapper
+    // background-color: green
+    width: 1200px
+    // height: 500px
+    .section_title
+        letter-spacing: 2px
+        margin-top: 50px
+    .row
+        height: 100%
+        .item_left
+            display: block
+            // background-color: red
+            position: relative
+            img
+                position: absolute
+                bottom: 0
+                left: 0
+                right: 0
+                display: inline-block
+                margin: auto
+                width: 330px
+                padding-bottom: 0px   
+        .item_right
+            // background-color: yellow
+            .text_wrapper
+                width: 95%
+                // background-color: red
+                // margin-top: 100px
+                font-family: $text_font
+                font-weight: 400
+                .greeting_title
+                    margin-bottom: 25px
+                p
+                    text-indent: 10px
+                    margin-bottom: 0!important
+                    color: $basepage_color
+                ::ng-deep span
+                    color: $highlight_color
+            
+                               
+                

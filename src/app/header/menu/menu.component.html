@@ -1,0 +1,7 @@
+<div class="menu_wrap">
+    <ul>
+        <li *ngFor="let menuItem of jsonData?.menu">
+            <a menuItem class="menu_link">{{getKeys(menuItem, menuItemName)}}</a>
+        </li>
+    </ul>
+</div>
